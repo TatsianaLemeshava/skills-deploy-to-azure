@@ -9,6 +9,6 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-2019
 
     if: contains(github.event.pull_request.labels.*.name, 'stage')
